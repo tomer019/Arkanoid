@@ -26,3 +26,17 @@ It was developed as part of the *Advanced Programming* course and uses the **biu
 ---
 
 ## 📂 Project Structure
+
+ass5/
+│
+├── build.xml # Ant build configuration
+├── lib/
+│ └── biuoop-1.4.jar # External library for GUI
+├── src/
+│ ├── Game/ # Main game logic
+│ ├── Sprites/ # Game objects (Ball, Paddle, Block, etc.)
+│ ├── Collide/ # Collision handling
+│ ├── Hit/ # Hit listeners and score tracking
+│ ├── Shape/ # Geometry classes (Point, Rectangle, etc.)
+│ └── Collections/ # Sprite and collidable collections
+└── bin/ # Compiled class files
