@@ -1,55 +1,28 @@
 <h1 align="center">🎮 ARKANOID GAME</h1>
-This project is an implementation of the classic Arkanoid (Breakout) game written in Java, as part of the Advanced Programming course.
-It uses the biuoop library for GUI, drawing, and keyboard handling.
+<h3 align="center">Assignment 5 — Advanced Programming Course | Bar-Ilan University</h3>
 
-🧩 Features
+---
 
- - Interactive paddle controlled by the keyboard (← and → keys).
+## 🧩 Overview
+This project is an implementation of the classic **Arkanoid (Breakout)** game written in **Java**.  
+It was developed as part of the *Advanced Programming* course and uses the **biuoop** library for GUI, drawing, and keyboard input.
 
- - Dynamic bouncing balls with adjustable velocity.
+---
 
--  Multiple colorful blocks that disappear upon collision.
+## 🚀 Features
+- Interactive paddle controlled by keyboard (`←` / `→`)
+- Bouncing balls with realistic collision physics  
+- Colorful blocks that disappear on hit  
+- Score tracking and display  
+- Game-over and win conditions  
 
--  Score tracking and display.
+---
 
--  Game over and victory logic.
+## 🛠️ Technologies
+- **Java 8+**
+- **Ant** (build automation)
+- **biuoop-1.4.jar** (GUI and input library)
 
-  ```
-ass5/
-│
-├── build.xml              # Ant build file
-├── lib/
-│   └── biuoop-1.4.jar     # External library for GUI
-├── src/
-│   ├── Game/              # Main game logic
-│   ├── Sprites/           # Game objects (Ball, Paddle, Block, etc.)
-│   ├── Collide/           # Collision handling
-│   ├── Hit/               # Hit listeners and score tracking
-│   ├── Shape/             # Geometry classes (Point, Rectangle, etc.)
-│   └── Collections/       # Sprite and collidable collections
-└── bin/                   # Compiled class files
-```
+---
 
-**How to Run:**
-Make sure you have Java and Ant installed.
-
-Navigate to the project directory:
-
-```
-cd C:\dev\ass5
-```
-
-Build the project:
-```
-ant compile
-```
-
-Run the game:
-```
-ant run
-```
-
-👨‍💻 Author
-
-Tomer Grady
-Bar-Ilan University — Advanced Programming Course (Assignment 5)
+## 📂 Project Structure
