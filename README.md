@@ -18,9 +18,11 @@ It uses the biuoop library for GUI, drawing, and keyboard handling.
 
 ass5/
 │
-├── build.xml              # Ant build file
+├── build.xml              # Ant build file 
+
 ├── lib/
 │   └── biuoop-1.4.jar     # External library for GUI
+
 ├── src/
 │   ├── Game/              # Main game logic
 │   ├── Sprites/           # Game objects (Ball, Paddle, Block, etc.)
