@@ -60,9 +60,16 @@ Run the game:
 ant run
  ```
 
-
+## 🎮 Controls
  | Key | Action                         |
 | --- | ------------------------------ |
 | ←   | Move paddle left               |
 | →   | Move paddle right              |
 | ESC | Exit the game (if implemented) |
+
+
+## 🧠 Author
+
+Tomer Grady
+Bar-Ilan University
+Advanced Programming Course — Assignment 5
