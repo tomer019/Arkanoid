@@ -14,7 +14,6 @@ It uses the biuoop library for GUI, drawing, and keyboard handling.
 -  Score tracking and display.
 
 -  Game over and victory logic.
-
 ass5/
 │
 ├── build.xml              # Ant build file
@@ -27,7 +26,7 @@ ass5/
 │   ├── Hit/               # Hit listeners and score tracking
 │   ├── Shape/             # Geometry classes (Point, Rectangle, etc.)
 │   └── Collections/       # Sprite and collidable collections
-└── bin/          
+└── bin/                   # Compiled class files
 
 
 **How to Run:**
