@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ass5" default="run" basedir=".">
+
+    <!-- === Clean === -->
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+
+    <!-- === Compile === -->
+    <target name="compile">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" includeantruntime="false">
+            <classpath>
+                <pathelement location="lib/biuoop-1.4.jar"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <!-- === Run === -->
+    <target name="run" depends="compile">
+        <java classname="Ass5Game" fork="true">
+            <classpath>
+                <pathelement path="bin"/>
+                <pathelement location="lib/biuoop-1.4.jar"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>
