@@ -15,20 +15,22 @@ It uses the biuoop library for GUI, drawing, and keyboard handling.
 
 -  Game over and victory logic.
 
+-  
+**How to Run:**
+Make sure you have Java and Ant installed.
 
-ass5/
-│
-├── build.xml              # Ant build file 
+Navigate to the project directory:
 
-├── lib/
-│   └── biuoop-1.4.jar     # External library for GUI
+```
+cd C:\dev\ass5
+```
 
-├── src/
-│   ├── Game/              # Main game logic
-│   ├── Sprites/           # Game objects (Ball, Paddle, Block, etc.)
-│   ├── Collide/           # Collision handling
-│   ├── Hit/               # Hit listeners and score tracking
-│   ├── Shape/             # Geometry classes (Point, Rectangle, etc.)
-│   └── Collections/       # Sprite and collidable collections
-└── bin/                   # Compiled class files
+Build the project:
+```
+ant compile
+```
 
+Run the game:
+```
+ant run
+```
