@@ -14,3 +14,19 @@ It uses the biuoop library for GUI, drawing, and keyboard handling.
 -  Score tracking and display.
 
 -  Game over and victory logic.
+
+
+ass5/
+│
+├── build.xml              # Ant build file
+├── lib/
+│   └── biuoop-1.4.jar     # External library for GUI
+├── src/
+│   ├── Game/              # Main game logic
+│   ├── Sprites/           # Game objects (Ball, Paddle, Block, etc.)
+│   ├── Collide/           # Collision handling
+│   ├── Hit/               # Hit listeners and score tracking
+│   ├── Shape/             # Geometry classes (Point, Rectangle, etc.)
+│   └── Collections/       # Sprite and collidable collections
+└── bin/                   # Compiled class files
+
