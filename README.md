@@ -1,11 +1,11 @@
 <h1 align="center">🎮 ARKANOID GAME</h1>
-<h3 align="center">Assignment 5 — Advanced Programming Course | Bar-Ilan University</h3>
+<h3 align="center">Assignment 5 — Object-Oriented Programming (OOP) Course | Bar-Ilan University</h3>
 
 ---
 
 ## 🧩 Overview
 This project is an implementation of the classic **Arkanoid (Breakout)** game written in **Java**.  
-It was developed as part of the *Advanced Programming* course and uses the **biuoop** library for GUI, drawing, and keyboard input.
+It was developed as part of the * Object-Oriented Programming (OOP)* course and uses the **biuoop** library for GUI, drawing, and keyboard input.
 
 ---
 
@@ -72,4 +72,5 @@ ant run
 
 Tomer Grady
 Bar-Ilan University
-Advanced Programming Course — Assignment 5
+ Object-Oriented Programming (OOP) Course — Assignment 5
+⭐ If you liked this project, consider giving it a star on GitHub!
